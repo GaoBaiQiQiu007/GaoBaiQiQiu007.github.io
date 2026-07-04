@@ -3,291 +3,352 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ak.github.io</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin: 30px 0 15px 0;
-            color: #1a1a1a;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        hr {
-            border: none;
-            border-top: 2px solid #ddd;
-            margin: 10px 0 20px 0;
-        }
-
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-bottom: 20px;
-        }
-
-        .tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 24px;
-            border-radius: 4px;
-            color: white;
-            font-size: 1.2em;
-            font-weight: 600;
-            text-decoration: none;
-        }
-
-        .tag-python {
-            background-color: #3776AB;
-        }
-
-        .tag-nodejs {
-            background-color: #43853D;
-        }
-
-        .tag-go {
-            background-color: #00ADD8;
-        }
-
-        .tag-git {
-            background-color: #F05032;
-        }
-
-        .tag-docker {
-            background-color: #2496ED;
-        }
-
-        .tag-linux {
-            background-color: #FCC624;
-            color: #000;
-        }
-
-        .stats-section {
-            margin-bottom: 30px;
-        }
-
-        .stats-img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        .stats-link {
-            color: #0366d6;
-            text-decoration: none;
-            font-size: 1.3em;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-
-        .stats-link:hover {
-            text-decoration: underline;
-        }
-
-        .trophy-img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .contact-section {
-            margin-bottom: 30px;
-        }
-
-        .contact-section ul {
-            list-style: none;
-            padding-left: 10px;
-        }
-
-        .contact-section li {
-            font-size: 1.4em;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .contact-section a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-
-        .contact-section a:hover {
-            text-decoration: underline;
-        }
-
-        .footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            font-size: 1.3em;
-            color: #555;
-        }
-
-        .footer a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        .icon {
-            font-size: 1.2em;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.8em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-
-            .tag {
-                font-size: 1em;
-                padding: 8px 16px;
-            }
-
-            .contact-section li {
-                font-size: 1.1em;
-            }
-        }
-    </style>
+    <title>GaoBaiQiQiu007 | GitHub 主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>后端开发</h1>
-
-        <div class="tags">
-            <span class="tag tag-python">
-                <span class="icon">🐍</span>
-                PYTHON
-            </span>
-            <span class="tag tag-nodejs">
-                <span class="icon">🟢</span>
-                NODE.JS
-            </span>
-            <span class="tag tag-go">
-                <span class="icon">🐹</span>
-                GO
-            </span>
-        </div>
-
-        <h2>
-            <span class="icon">🛠️</span>
-            工具 &amp; 其他
-        </h2>
-
-        <div class="tags">
-            <span class="tag tag-git">
-                <span class="icon">🔀</span>
-                GIT
-            </span>
-            <span class="tag tag-docker">
-                <span class="icon">🐳</span>
-                DOCKER
-            </span>
-            <span class="tag tag-linux">
-                <span class="icon">🐧</span>
-                LINUX
-            </span>
-        </div>
-
-        <h2>
-            <span class="icon">📊</span>
-            GitHub 统计
-        </h2>
-        <hr>
-
-        <div class="stats-section">
-            <img
-                class="stats-img"
-                src="https://github-readme-stats.vercel.app/api?username=GaoBaiQiQiu007&show_icons=true&theme=default&locale=cn"
-                alt="GaoBaiQiQiu007's GitHub stats"
-                onerror="this.onerror=null;this.src='https://github-readme-stats.vercel.app/api?username=GaoBaiQiQiu007&show_icons=true&theme=default';"
-            />
-            <a href="https://github.com/GaoBaiQiQiu007" class="stats-link">GaoBaiQiQiu007's GitHub stats</a>
-        </div>
-
-        <div class="stats-section">
-            <img
-                class="stats-img"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaoBaiQiQiu007&layout=compact&locale=cn"
-                alt="Top Langs"
-                onerror="this.onerror=null;this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=GaoBaiQiQiu007&layout=compact';"
-            />
-            <a href="https://github.com/GaoBaiQiQiu007" class="stats-link">Top Langs</a>
-        </div>
-
-        <h2>
-            <span class="icon">🏆</span>
-            GitHub Trophies
-        </h2>
-        <hr>
-
-        <div class="stats-section">
-            <img
-                class="trophy-img"
-                src="https://github-profile-trophy.vercel.app/?username=GaoBaiQiQiu007&theme=flat&no-frame=false&no-bg=false&margin-w=4"
-                alt="trophy"
-                onerror="this.onerror=null;this.src='https://github-profile-trophy.vercel.app/?username=GaoBaiQiQiu007';"
-            />
-            <a href="https://github.com/ryo-ma/github-profile-trophy" class="stats-link">trophy</a>
-        </div>
-
-        <h2>
-            <span class="icon">📬</span>
-            联系方式
-        </h2>
-        <hr>
-
-        <div class="contact-section">
-            <ul>
-                <li>
-                    <span>•</span>
-                    GitHub: <a href="https://github.com/GaoBaiQiQiu007">@GaoBaiQiQiu007</a>
-                </li>
-                <li>
-                    <span>•</span>
-                    Email: <a href="mailto:gaobaiqiqiu@example.com">gaobaiqiqiu@example.com</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="footer">
-            <p>⭐ From <a href="https://github.com/GaoBaiQiQiu007">GaoBaiQiQiu007</a></p>
-        </div>
+    <div class="gradient-bg"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
     </div>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-text">GBQ</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">首页</a>
+            <a href="#about" class="nav-link">关于</a>
+            <a href="#skills" class="nav-link">技能</a>
+            <a href="#projects" class="nav-link">项目</a>
+            <a href="#contact" class="nav-link">联系</a>
+        </div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <p class="hello-text">你好，我是</p>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-gradient">GaoBaiQiQiu007</span>
+                </h1>
+                <div class="typing-container">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    热爱编程，追求创新。用代码构建精彩世界，让创意无限绽放。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>查看项目</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>联系我</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="repoCount">0</span>
+                        <span class="stat-label">仓库</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="followerCount">0</span>
+                        <span class="stat-label">关注者</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="followingCount">0</span>
+                        <span class="stat-label">正在关注</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-container">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-ring avatar-ring-2"></div>
+                    <img id="avatarImg" src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Avatar" class="avatar-img">
+                    <div class="avatar-glow"></div>
+                </div>
+                <div class="tech-float">
+                    <span class="tech-bubble" style="--delay: 0s; --x: -80px; --y: -60px;">💻</span>
+                    <span class="tech-bubble" style="--delay: 1s; --x: 80px; --y: -40px;">🚀</span>
+                    <span class="tech-bubble" style="--delay: 2s; --x: -60px; --y: 60px;">⚡</span>
+                    <span class="tech-bubble" style="--delay: 0.5s; --x: 70px; --y: 70px;">🎨</span>
+                    <span class="tech-bubble" style="--delay: 1.5s; --x: 0px; --y: -90px;">🔥</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <p class="scroll-text">向下滚动</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-tag">关于我</span>
+            <h2 class="section-title">了解更多</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-card">
+                <div class="about-icon">🎯</div>
+                <h3>我的目标</h3>
+                <p>持续学习新技术，打造优秀的开源项目，与全球开发者共同成长。</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">💡</div>
+                <h3>热爱创造</h3>
+                <p>相信代码的力量，用创意和技术解决实际问题，让生活更美好。</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🌱</div>
+                <h3>持续成长</h3>
+                <p>保持好奇心，不断探索新领域，在实践中积累经验，提升自我。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <span class="section-tag">技能栈</span>
+            <h2 class="section-title">技术能力</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 class="category-title">前端开发</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon html">HTML5</div>
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon css">CSS3</div>
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon js">JavaScript</div>
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon react">React</div>
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="category-title">后端开发</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon python">Python</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon node">Node.js</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon go">Go</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Go</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon db">数据库</div>
+                        <div class="skill-info">
+                            <span class="skill-name">MySQL/MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="category-title">工具 & 其他</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon git">Git</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon docker">Docker</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon linux">Linux</div>
+                        <div class="skill-info">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon design">设计</div>
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-tag">作品展示</span>
+            <h2 class="section-title">我的项目</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="web">Web 应用</button>
+            <button class="filter-btn" data-filter="tool">工具</button>
+            <button class="filter-btn" data-filter="game">游戏</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+        </div>
+        <div class="more-projects">
+            <a href="https://github.com/GaoBaiQiQiu007" target="_blank" class="btn btn-outline">
+                <span>查看更多项目</span>
+                <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-tag">联系方式</span>
+            <h2 class="section-title">保持联系</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="contact-content">
+            <p class="contact-text">
+                如果你有有趣的想法或合作机会，欢迎随时联系我！
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/GaoBaiQiQiu007" target="_blank" class="contact-link github">
+                    <div class="contact-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </div>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:gaobaiqiqiu@example.com" class="contact-link email">
+                    <div class="contact-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <span>Email</span>
+                </a>
+                <a href="#" class="contact-link twitter">
+                    <div class="contact-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </div>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="contact-link blog">
+                    <div class="contact-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>
+                        </svg>
+                    </div>
+                    <span>博客</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                Made with ❤️ by <span class="footer-name">GaoBaiQiQiu007</span>
+            </p>
+            <p class="footer-copyright">
+                © 2024 All Rights Reserved.
+            </p>
+        </div>
+        <button class="back-to-top" id="backToTop">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+            </svg>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
