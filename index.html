@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ak.github.io</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin: 30px 0 15px 0;
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+            margin: 10px 0 20px 0;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            border-radius: 4px;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .tag-python {
+            background-color: #3776AB;
+        }
+
+        .tag-nodejs {
+            background-color: #43853D;
+        }
+
+        .tag-go {
+            background-color: #00ADD8;
+        }
+
+        .tag-git {
+            background-color: #F05032;
+        }
+
+        .tag-docker {
+            background-color: #2496ED;
+        }
+
+        .tag-linux {
+            background-color: #FCC624;
+            color: #000;
+        }
+
+        .stats-section {
+            margin-bottom: 30px;
+        }
+
+        .stats-img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .stats-link {
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 1.3em;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .stats-link:hover {
+            text-decoration: underline;
+        }
+
+        .trophy-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .contact-section {
+            margin-bottom: 30px;
+        }
+
+        .contact-section ul {
+            list-style: none;
+            padding-left: 10px;
+        }
+
+        .contact-section li {
+            font-size: 1.4em;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-section a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 1.3em;
+            color: #555;
+        }
+
+        .footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .tag {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+
+            .contact-section li {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>后端开发</h1>
+
+        <div class="tags">
+            <span class="tag tag-python">
+                <span class="icon">🐍</span>
+                PYTHON
+            </span>
+            <span class="tag tag-nodejs">
+                <span class="icon">🟢</span>
+                NODE.JS
+            </span>
+            <span class="tag tag-go">
+                <span class="icon">🐹</span>
+                GO
+            </span>
+        </div>
+
+        <h2>
+            <span class="icon">🛠️</span>
+            工具 &amp; 其他
+        </h2>
+
+        <div class="tags">
+            <span class="tag tag-git">
+                <span class="icon">🔀</span>
+                GIT
+            </span>
+            <span class="tag tag-docker">
+                <span class="icon">🐳</span>
+                DOCKER
+            </span>
+            <span class="tag tag-linux">
+                <span class="icon">🐧</span>
+                LINUX
+            </span>
+        </div>
+
+        <h2>
+            <span class="icon">📊</span>
+            GitHub 统计
+        </h2>
+        <hr>
+
+        <div class="stats-section">
+            <img
+                class="stats-img"
+                src="https://github-readme-stats.vercel.app/api?username=GaoBaiQiQiu007&show_icons=true&theme=default&locale=cn"
+                alt="GaoBaiQiQiu007's GitHub stats"
+                onerror="this.onerror=null;this.src='https://github-readme-stats.vercel.app/api?username=GaoBaiQiQiu007&show_icons=true&theme=default';"
+            />
+            <a href="https://github.com/GaoBaiQiQiu007" class="stats-link">GaoBaiQiQiu007's GitHub stats</a>
+        </div>
+
+        <div class="stats-section">
+            <img
+                class="stats-img"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=GaoBaiQiQiu007&layout=compact&locale=cn"
+                alt="Top Langs"
+                onerror="this.onerror=null;this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=GaoBaiQiQiu007&layout=compact';"
+            />
+            <a href="https://github.com/GaoBaiQiQiu007" class="stats-link">Top Langs</a>
+        </div>
+
+        <h2>
+            <span class="icon">🏆</span>
+            GitHub Trophies
+        </h2>
+        <hr>
+
+        <div class="stats-section">
+            <img
+                class="trophy-img"
+                src="https://github-profile-trophy.vercel.app/?username=GaoBaiQiQiu007&theme=flat&no-frame=false&no-bg=false&margin-w=4"
+                alt="trophy"
+                onerror="this.onerror=null;this.src='https://github-profile-trophy.vercel.app/?username=GaoBaiQiQiu007';"
+            />
+            <a href="https://github.com/ryo-ma/github-profile-trophy" class="stats-link">trophy</a>
+        </div>
+
+        <h2>
+            <span class="icon">📬</span>
+            联系方式
+        </h2>
+        <hr>
+
+        <div class="contact-section">
+            <ul>
+                <li>
+                    <span>•</span>
+                    GitHub: <a href="https://github.com/GaoBaiQiQiu007">@GaoBaiQiQiu007</a>
+                </li>
+                <li>
+                    <span>•</span>
+                    Email: <a href="mailto:gaobaiqiqiu@example.com">gaobaiqiqiu@example.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>⭐ From <a href="https://github.com/GaoBaiQiQiu007">GaoBaiQiQiu007</a></p>
+        </div>
+    </div>
+</body>
+</html>
