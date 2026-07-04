@@ -41,7 +41,7 @@
 ## 📫 联系方式
 
 - GitHub: [@GaoBaiQiQiu007](https://github.com/GaoBaiQiQiu007)
-- Email: gaobaiqiqiu@example.com
+- Email: 3191959156@qq.com
 
 ---
 
